@@ -1,0 +1,19 @@
+node_modules
+dist
+.tmp
+bower_components
+test/bower_components
+
+1st Ekran Right
+banner
+main12version
+otzivi
+parallax
+top_promotion_30.06.2016
+toppromotion_v2
+
+*.png
+*.psd
+*.zip
+*.config
+*.back
