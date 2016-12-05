@@ -28,13 +28,20 @@ console.log('\'Allo \'Allo!'), $(document).ready(function() {
 
     $('header-video').parallax({
         'elements': [{
-            'selector': 'header-video',
+            'selector': '.outer',
             'properties': {
                 'x': {
                     'background-position-x': {
-                        'initial': 0,
-                        'multiplier': 0.1,
-
+                        'initial': 50,
+                        'multiplier': 0.01,
+                        'unit': '%',
+                    }
+                },
+                'y': {
+                    'background-position-y': {
+                        'initial': 150,
+                        'multiplier': 0.01,
+                        'unit': '%',
                     }
                 }
 
@@ -71,13 +78,14 @@ console.log('\'Allo \'Allo!'), $(document).ready(function() {
 
                     }
                 },
-                'y': {
-                    'background-position-y': {
-                        'initial': 65,
-                        'multiplier': 0.01,
-                        'unit': '%',
-                    }
-                }
+                // 'y': {
+                //     'background-position-y': {
+                //         'initial': 65,
+                //         'multiplier': 0.01,
+                //         'unit': '%',
+                //     }
+                // }
+
             }
         }]
     });
